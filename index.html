@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando HTML</title>
+</head>
+<body>
+
+    <h1>TAGS</h1>
+    <hr/>
+
+    <h2 id="inicio">Indice</h2>
+
+    <ul> 
+        <li><a href="#Heading">Como usar as tags Heading</a></li>
+        <li><a href="#blockquote">Como Fazer uma citação em HTML</a></li>
+        <li><a href="#Listas">Listas ordenadas e não ordenadas</a></li>
+    </ul>
+
+    <h2 id="Heading">Como usar as tags <u><i>Heading</i></u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>
+        As tags <u><i><strong>Heading</strong></i></u> são tags para destacar títulos e subtítulos para a sua pagina. De <strong>H1</strong> até a <strong>H6</strong>, sendo <strong>H1</strong> tendo a propriedade de maior tamanho e <strong>H6</strong> de menor tamanho. De modo geral, a <strong>H1</strong> deve ser utilizada como o título das páginas e é um elemento único em cada página. Depois disso, temos o <strong>H2</strong>, que está hierarquicamente submetido ao <strong>H1</strong>, e o <strong>H3</strong> que por sua vez está submetido ao <strong>H2</strong> e assim sucessivamente. <mark>Não utilize para alterar tamanho de fonte. A melhor forma de fazer isso é no CSS.</mark>
+    </p>
+
+    <h2 id="blockquote">Como Fazer uma citação em HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>
+        Para fazer uma citação no documento HTML se usa o elemento blockquote que define uma seção dentro de um documento que é citada de outra fonte. Por exemplo: 
+
+        <p>
+        < blockquote >"A força não provém da capacidade física. Provém de uma vontade indomável." Gandhi< blockquote></p>
+
+        <p>
+            E fica assim:
+        </p>
+
+        <blockquote>"A força não provém da capacidade física. Provém de uma vontade indomável."Gandhi</blockquote>
+
+        <p>
+            Também pode ser colocado uma URL para que a citação possa vir direto da fonte, caso seja de algum site de estudos. Para alterar o recuo e o tamanho, a melhor opção seja o CSS.
+        </p>
+    </p>
+
+    <h2 id="Listas">Listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>
+        As listas ordenadas começam com a tag < ol > e coloca todos os itens em  ordem numérica. O navegador entende que os itens listados são colocados em ordem crescente de importância. Sewgue o exemplo:
+
+        <ol>
+            <li>item branco</li>
+            <li>item roxo</li>
+            <li>item vermelho</li>
+            <li>item preto</li>
+        </ol>
+    </p>
+
+    <p>
+        Já as listas não ordenadas, são colocadas em ordem com marcadores apenas, sem grau de importancia ou ordem crescente. A tag usada para essa lista é < ul >, veja o exemplo:
+
+        <ul>
+            <li>item branco</li>
+            <li>item roxo</li>
+            <li>item vermelho</li>
+            <li>item preto</li>
+        </ul>
+    </p>
+
+    <p>
+        listas são usadas também para fazer menu em front-end. Além disso, para usar as listas corretamente, tanto a tag ol ou ul precisam ter a tag filha li. Ela que lista os itens dentro das tags pai.
+    </p>
+    
+</body>
+</html>
